@@ -92,6 +92,89 @@ namespace PresentationLayer.FrmBook
             DBConnection.sqlConnection.Close();
         }
 
-    
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtType_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void rbPasive_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbActive_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPAgeCount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAuthor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCategory_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPageCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAuthor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblId_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

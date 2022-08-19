@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BL\BLBook.cs" />
     <Compile Include="BL\BLCategory.cs" />
+    <Compile Include="BL\BLUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -59,6 +59,7 @@
             this.lblId.Size = new System.Drawing.Size(129, 27);
             this.lblId.TabIndex = 0;
             this.lblId.Text = "Kitap Id:";
+            this.lblId.Click += new System.EventHandler(this.lblId_Click);
             // 
             // lblName
             // 
@@ -68,6 +69,7 @@
             this.lblName.Size = new System.Drawing.Size(142, 27);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Kitap Adı:";
+            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // lblAuthor
             // 
@@ -77,6 +79,7 @@
             this.lblAuthor.Size = new System.Drawing.Size(142, 27);
             this.lblAuthor.TabIndex = 2;
             this.lblAuthor.Text = "Yazar Adı:";
+            this.lblAuthor.Click += new System.EventHandler(this.lblAuthor_Click);
             // 
             // lblType
             // 
@@ -86,6 +89,7 @@
             this.lblType.Size = new System.Drawing.Size(64, 27);
             this.lblType.TabIndex = 3;
             this.lblType.Text = "Tür:";
+            this.lblType.Click += new System.EventHandler(this.lblType_Click);
             // 
             // lblPageCount
             // 
@@ -95,6 +99,7 @@
             this.lblPageCount.Size = new System.Drawing.Size(181, 27);
             this.lblPageCount.TabIndex = 4;
             this.lblPageCount.Text = "Sayfa Sayısı:";
+            this.lblPageCount.Click += new System.EventHandler(this.lblPageCount_Click);
             // 
             // lblCategory
             // 
@@ -104,6 +109,7 @@
             this.lblCategory.Size = new System.Drawing.Size(129, 27);
             this.lblCategory.TabIndex = 5;
             this.lblCategory.Text = "Kategori:";
+            this.lblCategory.Click += new System.EventHandler(this.lblCategory_Click);
             // 
             // lblStatus
             // 
@@ -113,6 +119,7 @@
             this.lblStatus.Size = new System.Drawing.Size(90, 27);
             this.lblStatus.TabIndex = 6;
             this.lblStatus.Text = "Durum:";
+            this.lblStatus.Click += new System.EventHandler(this.lblStatus_Click);
             // 
             // txtId
             // 
@@ -120,6 +127,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(228, 34);
             this.txtId.TabIndex = 7;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // txtName
             // 
@@ -127,6 +135,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(228, 34);
             this.txtName.TabIndex = 8;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtAuthor
             // 
@@ -134,6 +143,7 @@
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.Size = new System.Drawing.Size(228, 34);
             this.txtAuthor.TabIndex = 9;
+            this.txtAuthor.TextChanged += new System.EventHandler(this.txtAuthor_TextChanged);
             // 
             // comboBoxCategory
             // 
@@ -142,6 +152,7 @@
             this.comboBoxCategory.Name = "comboBoxCategory";
             this.comboBoxCategory.Size = new System.Drawing.Size(227, 35);
             this.comboBoxCategory.TabIndex = 10;
+            this.comboBoxCategory.SelectedIndexChanged += new System.EventHandler(this.comboBoxCategory_SelectedIndexChanged);
             // 
             // txtPAgeCount
             // 
@@ -149,6 +160,7 @@
             this.txtPAgeCount.Name = "txtPAgeCount";
             this.txtPAgeCount.Size = new System.Drawing.Size(228, 34);
             this.txtPAgeCount.TabIndex = 12;
+            this.txtPAgeCount.TextChanged += new System.EventHandler(this.txtPAgeCount_TextChanged);
             // 
             // rbPasive
             // 
@@ -160,6 +172,7 @@
             this.rbPasive.TabStop = true;
             this.rbPasive.Text = "Pasif";
             this.rbPasive.UseVisualStyleBackColor = true;
+            this.rbPasive.CheckedChanged += new System.EventHandler(this.rbPasive_CheckedChanged);
             // 
             // rbActive
             // 
@@ -171,6 +184,7 @@
             this.rbActive.TabStop = true;
             this.rbActive.Text = "Aktif";
             this.rbActive.UseVisualStyleBackColor = true;
+            this.rbActive.CheckedChanged += new System.EventHandler(this.rbActive_CheckedChanged);
             // 
             // dataGridView1
             // 
@@ -183,6 +197,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(941, 199);
             this.dataGridView1.TabIndex = 24;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // txtType
             // 
@@ -190,6 +205,7 @@
             this.txtType.Name = "txtType";
             this.txtType.Size = new System.Drawing.Size(228, 34);
             this.txtType.TabIndex = 25;
+            this.txtType.TextChanged += new System.EventHandler(this.txtType_TextChanged);
             // 
             // btnList
             // 
@@ -229,6 +245,7 @@
             this.button3.TabIndex = 29;
             this.button3.Text = "Listeleme";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Frm_Book
             // 

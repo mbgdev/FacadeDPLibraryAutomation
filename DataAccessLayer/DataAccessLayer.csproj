@@ -44,6 +44,7 @@
     <Compile Include="Connection\DBConnection.cs" />
     <Compile Include="DAL\DALBook.cs" />
     <Compile Include="DAL\DALCategory.cs" />
+    <Compile Include="DAL\DALUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
